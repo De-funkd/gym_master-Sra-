@@ -1,15 +1,14 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 k = 1000
-e = 0.1
-t = 10000
+t = 1000
+eval = [0.1, 0.05, 0.01]
 
 mean = np.random.rand(k)
-Q = np.zeros(k)
-N = np.zeros(k)
-rewards = np.zeros(t)
-
-
+rewards = np.zeros((len(eval), t))
+avg = np.zeros((len(eval), t))
+best_arm_counts = np.zeros(len(eval))  
 
 def select(Q, e):
     if np.random.rand() < e:
@@ -17,39 +16,48 @@ def select(Q, e):
     else:
         return np.argmax(Q)
 
-
-
 def pullarm(arm):
     return mean[arm]
-
-
 
 def update(Q, N, arm, reward):
     N[arm] += 1
     Q[arm] += (reward - Q[arm]) / N[arm]
 
-
-
 best_arm = np.argmax(mean)
-best_arm_count = 0
+
+for i in range(len(eval)):
+    e = eval[i]
+    Q = np.zeros(k)
+    N = np.zeros(k)
+
+    for step in range(t):
+        arm = select(Q, e)
+        reward = pullarm(arm)
+        rewards[i, step] = reward
+        avg[i, step] = np.mean(rewards[i, :step + 1])
+        update(Q, N, arm, reward)
+
+        if arm == best_arm:
+            best_arm_counts[i] += 1
+
+time = np.arange(t)
+avgrewards = np.mean(rewards, axis=1)
+
+plt.figure(figsize=(10, 6))
+for i in range(len(eval)):
+    plt.plot(time, avg[i], label=f"Epsilon = {eval[i]}")
+
+plt.xlabel("Time Steps")
+plt.ylabel("Average Reward")
+plt.title("Average Reward vs Time Steps for Different Epsilon Values")
+plt.legend()
+plt.show()
 
 
-for step in range(t):
-    arm = select(Q, e)
-    reward = pullarm(arm)
-    rewards[step] = reward
-    update(Q, N, arm, reward)
+probabilities = best_arm_counts / t
 
-
-    if arm == best_arm:
-      best_arm_count+= 1
-
-
-avg = np.mean(rewards)
-
-
-probability = best_arm_count / t
-
-
-print("Average reward:", avg)
-print("Probability of selecting the best arm:", probability)
+for i in range(len(eval)):
+    print(f"For epsilon: {eval[i]}")
+    print("Average reward:", avgrewards[i])
+    print("Probability of selecting the best arm:", probabilities[i])
+    print("\n")
