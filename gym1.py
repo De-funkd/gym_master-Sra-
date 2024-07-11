@@ -43,7 +43,7 @@ for i in range(len(eval)):
 time = np.arange(t)
 avgrewards = np.mean(rewards, axis=1)
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 5))
 for i in range(len(eval)):
     plt.plot(time, avg[i], label=f"Epsilon = {eval[i]}")
 
