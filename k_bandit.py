@@ -1,54 +1,41 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Parameterzzz
-k = 100
-steps = 100
-epsilons = [0.01, 0.1, 0]
+k = 100  # number of actions
+steps = 1000  # number of steps to simulate
+epsilons = [0.01, 0.1, 0]  # different epsilon values
 
-# initializing true rewards (generating randomly)
+# Generate rewards for arm
 true_rewards = np.random.randn(k)
 
-#choosing actions acc. to the epsilon vale 
-def choose_action(q_values, epsilon):
-    if np.random.rand() < epsilon:
-        return np.random.randint(k) 
-    else:
-        return np.argmax(q_values)  
+#  storage for average rewards
+avg_rewards_epsilons = {}
 
-# gives reward for the action (it is random) , since rewards will be random IRL
-def get_reward(action):
-    return np.random.randn() + true_rewards[action]
-
-# updatinng action-values 
-def update_estimates(q_values, action_counts, action, reward):
-    action_counts[action] += 1
-    q_values[action] += (reward - q_values[action]) / action_counts[action]
-
-# runss the bandit and collects avg. reward
-def run_bandit(epsilon, steps):
-    q_values = np.zeros(k)
-    action_counts = np.zeros(k)
+for ep in epsilons:
+    q_val = np.zeros(k)
+    N = np.zeros(k)
     rewards = np.zeros(steps)
     avg_rewards = np.zeros(steps)
     
-    for tstep in range(steps):
-        action = choose_action(q_values, epsilon)
-        reward = get_reward(action)
-        update_estimates(q_values, action_counts, action, reward)
-        rewards[tstep] = reward
-        avg_rewards[tstep] = np.mean(rewards[:tstep+1])
+    total_reward = 0
+    
+    for t in range(steps):
+        if np.random.rand() < ep:
+            action = np.random.randint(k)  # exploration
+        else:
+            action = np.argmax(q_val)  # exploitation
         
-            
-    return avg_rewards
+        reward =  true_rewards[action]
+        N[action] += 1
+        q_val[action] += (reward - q_val[action]) / N[action]
+        
+        rewards[t] = reward
+        total_reward += reward
+        avg_rewards[t] = total_reward / (t + 1)
+    
+    avg_rewards_epsilons[ep] = avg_rewards
 
-#iterates thr and runs the code for all values of epsilon 
-avg_rewards_epsilons = {}
-for epsilon in epsilons:
-    avg_rewards_epsilons[epsilon] = run_bandit(epsilon, steps)
-
-# plots avg rewards v/s epsilon value curve 
-
+# Plot the results
 plt.figure(figsize=(10, 6))
 for epsilon in epsilons:
     plt.plot(avg_rewards_epsilons[epsilon], label=f'epsilon = {epsilon}')
@@ -59,6 +46,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-#prints avg rewards for each value of epsilon 
+# Print average rewards at the end
 for epsilon in epsilons:
-    print(f"Average reward over {steps} steps for epsilon {epsilon}: {avg_rewards_epsilons[epsilon][-1]}")
+     print('Epsilon', epsilon, ': Avg reward =', round(avg_rewards_epsilons[epsilon][-1], 2))
