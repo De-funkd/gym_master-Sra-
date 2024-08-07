@@ -3,8 +3,8 @@ import gymnasium as gym
 
 env = gym.make("MountainCar-v0",render_mode = "human")
 
-episodes = 1000
-steps = 100
+episodes = 10000
+steps = 1000
 
  
 obs_pos = np.linspace(env.observation_space.low[0], env.observation_space.high[0], 40)
