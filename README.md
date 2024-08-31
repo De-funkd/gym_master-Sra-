@@ -116,8 +116,8 @@ Process to train and run the code:
 ## PONG
 Deep Q networks:
  
-
- ![image](https://github.com/user-attachments/assets/53411b25-4dcb-4b07-81d8-f1a8cc890c0f)
+[Pong](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c08edd97535089.5ec71d61c627a.gif)
+ 
 
 
 
