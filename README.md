@@ -3,26 +3,58 @@
 ![image](https://github.com/user-attachments/assets/fb57cc63-4175-48fe-8404-4797297112c5)
 
 
-**Aim:
+## Aim:
 1) Understanding concepts of reinforcement learning
 2) Solving basic implementations like k armed bandits and gridworld
 3) To solve implementations on open ai gym
 4) implementing atari game of pong on gym
 
+
+## Table of Contents
+
+| Sr No | Content                        | Pg No |
+|-------|--------------------------------|-------|
+| 1     | Overview                       |       |
+| 2     | Introduction:                  |       |
+|       | * What is RL?                  |       |
+|       | * What is Q learning?          |       |
+|                                        |       |
+| 3     | * Mountain Car implementation
+          * Cartpole Implementation
+          * Blackjack Implementation
+          * 
+|       |
+| 4     | Deeper Concepts                |       |
+|       | • Monte Carlo and blackjack    |       |
+|       | • What is Q learning?          |       |
+|       | • Mountain Car Problem         |       |
+|       | • Cartpole Problem             |       |
+|       | • Frozen Lake Problem          |       |
+| 5     | DQNs:                          |       |
+|       | • What are DQNs?               |       |
+|       | • Features of neural network   |       |
+|       | • Pong implementation using CNNs |       |
+| 6     | • Problems faced               |       |
+|       | • Future tasks                 |       |
+|       | • References                   |       |
+
+
+
+
    
 
-**Theory:
+## Theory:
 Refer our documentation for getting a deeper insight into our project
 
 Platforms Used:
 
-**Open AI GYM
+## Open AI GYM
 
 
 ![image](https://github.com/user-attachments/assets/0ff8bd67-c583-44a6-9361-fcdfa0677bef)
 
 
-**Kaggle
+## Kaggle
 
 ![image](https://github.com/user-attachments/assets/edf2db32-6e79-43ca-bd96-4c9551b62406)
 
@@ -30,7 +62,7 @@ Platforms Used:
 
 
 
-**What is RL?
+## What is RL?
 
   Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment to achieve a goal. 
   The agent receives feedback in the form of rewards or penalties based on its actions, which it uses to learn optimal strategies or policies.
@@ -42,7 +74,7 @@ Platforms Used:
 
 
 
-**Q learning
+## Q learning
 Q-learning is an off-policy algorithm that aims to learn the value of state-action pairs to determine the best policy for maximizing cumulative rewards in each environment. It updates the Q-values (expected future rewards) based on the agent's experiences to improve decision-making.
 
 Implementations
@@ -55,14 +87,14 @@ Implementations
 
 After training for 2500 episodes we observe the car reaching the flagpost
 
-2)**Cartpole
+2) ## Cartpole
 
 
     ![image](https://github.com/user-attachments/assets/2cbc2495-6153-4991-a208-531bc752ec0b)
 
 After training for 2000 episodes we observe the pole being balanced on the cart successfully
 
-3) Blackjack
+3) ## Blackjack
       Implementing monte carlo learning to get desired results
 
  
@@ -73,7 +105,7 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
  
 
 
-5) #Frozen lake
+5) ## Frozen lake
 
     Implementing frozen lake problem and achieveing results after 1000 episodes training
 
@@ -92,7 +124,7 @@ Process to train and run the code:
 *  We make basic installations for gym,numpy and pygame
 
 
-PONG
+## PONG
 Deep Q networks:
  
 
