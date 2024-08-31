@@ -159,10 +159,10 @@ Implementation of Pong
 
 
 Installations required for Pong
-Gym
-Numpy
-Cv
-Pygame
+* Gym
+* Numpy
+* Cv
+* Pygame
 
 pip install gym[atari]
 pip install opencv-python
