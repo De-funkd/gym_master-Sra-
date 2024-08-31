@@ -1,13 +1,14 @@
 import gym
 import numpy as np
 
-env = gym.make('FrozenLake-v1', desc=None, map_name="4x4", is_slippery=True, render_mode="human")
 
+env = gym.make('FrozenLake-v1', desc=None, map_name="4x4", is_slippery=True, render_mode="human")
 gamma = 0.9
 alpha = 0.1
 epsilon = 0.1
-episodes = 100
+episodes = 1000
 decay = 0.995
+
 
 states = env.observation_space.n
 actions = env.action_space.n
@@ -24,8 +25,8 @@ def choose_action(state):
 def training():
     global epsilon
     for episode in range(episodes):
-        state, _ =env.reset()
-        done=False
+        state, _ = env.reset()
+        done = False
         total = 0
 
         while not done:
@@ -39,26 +40,33 @@ def training():
 
             state = next_state
 
-
-        epsilon=epsilon*decay
+        epsilon *= decay
 
 
 
     print("Training complete.")
 
+    np.save("q_table.npy", Q)
+    print("Q-table saved as 'q_table.npy'.")
+
+
+training()
+
+Q = np.load("q_table.npy")
+print("Q-table loaded.")
+
 
 def run():
     state, _ = env.reset()
-    env.render()
-
-    steps = 0
     done = False
+    total= 0
 
     while not done:
         action = np.argmax(Q[state])
         state, reward, done, _, _ = env.step(action)
+        total += reward
         env.render()
-        steps += 1
+
 
         if done:
             if reward == 1:
@@ -67,7 +75,5 @@ def run():
                 print("oops sorry you failed")
             break
 
-
-q_learning()
 
 run()
