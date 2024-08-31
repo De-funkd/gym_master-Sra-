@@ -11,36 +11,23 @@
 
 
 ## Table of Contents
-
 | Sr No | Content                        | Pg No |
 |-------|--------------------------------|-------|
 | 1     | Overview                       |       |
 | 2     | Introduction:                  |       |
-|       | * What is RL?                  |       |
-|       | * What is Q learning?          |       |
-|                                        |       |
-| 3     | * Mountain Car implementation
-          * Cartpole Implementation
-          * Blackjack Implementation
-          * 
-|       |
-| 4     | Deeper Concepts                |       |
-|       | • Monte Carlo and blackjack    |       |
-|       | • What is Q learning?          |       |
-|       | • Mountain Car Problem         |       |
-|       | • Cartpole Problem             |       |
-|       | • Frozen Lake Problem          |       |
-| 5     | DQNs:                          |       |
-|       | • What are DQNs?               |       |
-|       | • Features of neural network   |       |
-|       | • Pong implementation using CNNs |       |
-| 6     | • Problems faced               |       |
-|       | • Future tasks                 |       |
-|       | • References                   |       |
-
-
-
-
+|       | 1) What is RL?                 |       |
+|       | 2) What is Q-learning?         |       |
+| 3     | Implementations:               |       |
+|       | 1) Mountain Car Implementation |       |
+|       | 2) Cartpole Implementation     |       |
+|       | 3) Blackjack Implementation    |       |
+|       | 4) Frozen Lake Implementation  |       |
+| 4     | Deep Q-Learning:               |       |
+|       | 1) What is DQN?                |       |
+|       | 2) Pong Implementation         |       |
+|       | 3) Commands Required           |       |
+| 5     | Future Works                   |       |
+| 6     | References                     |       |
    
 
 ## Theory:
