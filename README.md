@@ -50,7 +50,19 @@ Platforms Used:
 
 
 File Structure
-main-branch/ ├── src/ │ ├── mountaincar.py │ ├── cartpole.py │ ├── inverted_pendulum.py │ ├── gridworld.py │ └── multiarmedbandit.py ├── saves/ │ ├── mountaincar_q.npy │ ├── cartpole_q.npy │ └── inverted_ka_q_table.npy (if applicable) └── notes/ └── [Add your notes here]
+main-branch
+├── src
+│   ├── mountaincar.py
+│   ├── cartpole.py
+│   ├── inverted_pendulum.py
+│   ├── gridworld.py
+│   └── multiarmedbandit.py
+├── saves
+│   ├── mountaincar_q.npy
+│   ├── cartpole_q.npy
+│   └── inverted_ka_q_table.npy (if applicable)
+└── notes
+    └── [Add your notes here]
 
 
 
@@ -59,7 +71,7 @@ main-branch/ ├── src/ │ ├── mountaincar.py │ ├── cartpole.
 
   Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment to achieve a goal. 
   The agent receives feedback in the form of rewards or penalties based on its actions, which it uses to learn optimal strategies or policies.
-  It consists of actions states and environments
+  It consists of actions, states, rewards and environment
 
 
 ![image](https://github.com/user-attachments/assets/0f0aa061-a6a9-4b6a-8974-7b3cc5afb02f)
@@ -109,7 +121,8 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
 
 
  
-    ![image](https://github.com/user-attachments/assets/02acd5d9-8329-45ba-a7fd-50385231b9f4)
+   
+   ![frozenlake](https://tse4.mm.bing.net/th?id=OIP.TntNAltZ4iO0puJRIUSQRgAAAA&pid=Api&P=0&h=180)
 
 
 
