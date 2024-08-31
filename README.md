@@ -103,13 +103,13 @@ Pygame
 
 
 Future goals:
-•	Implementing pong using libraries such as keras and TensorFlow for better and efficient results
-•	Implementation of RL on a self-balancing bot
-•	Usage in simulation of bots on platforms like gazebo
-•	Developing a RL based drone to deliver packages
+*	Implementing pong using libraries such as keras and TensorFlow for better and efficient results
+*	Implementation of RL on a self-balancing bot
+* Usage in simulation of bots on platforms like gazebo
+*	Developing a RL based drone to deliver packages
 
 Troubleshooting
-Make sure to use the correct name of the environment
-Use the updated version of gym when running the pong code
+*Make sure to use the correct name of the environment
+*Use the updated version of gym when running the pong code
 
    
