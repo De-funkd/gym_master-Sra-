@@ -50,19 +50,9 @@ Platforms Used:
 
 
 File Structure
-main-branch
-├── src
-│   ├── mountaincar.py
-│   ├── cartpole.py
-│   ├── inverted_pendulum.py
-│   ├── gridworld.py
-│   └── multiarmedbandit.py
-├── saves
-│   ├── mountaincar_q.npy
-│   ├── cartpole_q.npy
-│   └── inverted_ka_q_table.npy (if applicable)
-└── notes
-    └── [Add your notes here]
+
+
+![image](https://github.com/user-attachments/assets/db53041f-57c1-4c57-94a4-59b60239e7c3)
 
 
 
