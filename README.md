@@ -9,6 +9,8 @@ Aim:
 3) To solve implementations on open ai gym
 4) implementing atari game of pong on gym
 
+   
+
 Theory:
 Refer our documentation for getting a deeper insight into our project
 
@@ -25,6 +27,12 @@ Kaggle
 ![image](https://github.com/user-attachments/assets/edf2db32-6e79-43ca-bd96-4c9551b62406)
 
 
+
+
+Reinforcement Learning:
+What is RL?
+
+![image](https://github.com/user-attachments/assets/0f0aa061-a6a9-4b6a-8974-7b3cc5afb02f)
 
 
 
@@ -50,17 +58,20 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
       Implementing monte carlo learning to get desired results
 
  
+ 
+
    ![image](https://github.com/user-attachments/assets/9817d451-55f5-4223-8c6f-454e1290d420)
 
  
 
 
-5) Frozen lake
+5) #Frozen lake
 
     Implementing frozen lake problem and achieveing results after 1000 episodes training
 
 
 
+ 
     ![image](https://github.com/user-attachments/assets/02acd5d9-8329-45ba-a7fd-50385231b9f4)
 
 
