@@ -109,20 +109,21 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
       Implementing monte carlo learning to get desired results
 
  
- ![Alt Text](![image](https://github.com/user-attachments/assets/22e44fd9-98bd-4543-af3c-fb5f7d93f2a1)
+       
 
  
 
 
 5) ## Frozen lake
 
-    Implementing frozen lake problem and achieveing results after 1000 episodes training
+    Implementing frozen lake problem and achieving results after 1000 episodes training
 
 
 
  
    
    ![frozenlake](https://tse4.mm.bing.net/th?id=OIP.TntNAltZ4iO0puJRIUSQRgAAAA&pid=Api&P=0&h=180)
+
 
 
 
