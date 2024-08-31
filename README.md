@@ -65,7 +65,7 @@ Platforms Used:
 Q-learning is an off-policy algorithm that aims to learn the value of state-action pairs to determine the best policy for maximizing cumulative rewards in each environment. It updates the Q-values (expected future rewards) based on the agent's experiences to improve decision-making.
 
 Implementations
-1)**Mountain Car
+1) ## Mountain Car
 
 
    https://github.com/user-attachments/assets/ae525c3b-e0e7-4c33-9df5-4189ee670474
@@ -89,8 +89,7 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
       Implementing monte carlo learning to get desired results
 
  
- 
-<img width="599" alt="Screenshot 2024-08-31 at 6 19 36 PM 1" src="https://github.com/user-attachments/assets/73169578-8ad2-420f-8197-30e656eff094">
+ ![Alt Text](![image](https://github.com/user-attachments/assets/22e44fd9-98bd-4543-af3c-fb5f7d93f2a1)
 
  
 
