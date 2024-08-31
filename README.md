@@ -49,10 +49,17 @@ Platforms Used:
 
 
 
+File Structure
+main-branch/ ├── src/ │ ├── mountaincar.py │ ├── cartpole.py │ ├── inverted_pendulum.py │ ├── gridworld.py │ └── multiarmedbandit.py ├── saves/ │ ├── mountaincar_q.npy │ ├── cartpole_q.npy │ └── inverted_ka_q_table.npy (if applicable) └── notes/ └── [Add your notes here]
+
+
+
+
 ## What is RL?
 
   Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment to achieve a goal. 
   The agent receives feedback in the form of rewards or penalties based on its actions, which it uses to learn optimal strategies or policies.
+  It consists of actions states and environments
 
 
 ![image](https://github.com/user-attachments/assets/0f0aa061-a6a9-4b6a-8974-7b3cc5afb02f)
@@ -65,6 +72,7 @@ Platforms Used:
 Q-learning is an off-policy algorithm that aims to learn the value of state-action pairs to determine the best policy for maximizing cumulative rewards in each environment. It updates the Q-values (expected future rewards) based on the agent's experiences to improve decision-making.
 
 Implementations
+
 1) ## Mountain Car
 
 
