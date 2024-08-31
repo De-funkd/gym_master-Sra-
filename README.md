@@ -75,7 +75,7 @@ Q-learning is an off-policy algorithm that aims to learn the value of state-acti
 
 Implementations
 
-1) ## Mountain Car
+ ## 1) Mountain Car
 
 
    https://github.com/user-attachments/assets/ae525c3b-e0e7-4c33-9df5-4189ee670474
@@ -85,7 +85,7 @@ Implementations
 
 After training for 2500 episodes we observe the car reaching the flagpost
 
-2) ## Cartpole
+## 2)Cartpole
 
 
    
@@ -95,16 +95,16 @@ https://github.com/user-attachments/assets/9f79fa41-6ff4-4750-9be5-ac78f052078e
 
 After training for 2000 episodes we observe the pole being balanced on the cart successfully
 
-3) ## Blackjack
+3) ## 3) Blackjack
       Implementing monte carlo learning to get desired results
 
  
-       https://github.com/user-attachments/assets/2b993a49-fab3-42da-8f9f-61188b8f329a
+     
 
  
 
 
-5) ## Frozen lake
+5) ## 4) Frozen lake
 
     Implementing frozen lake problem and achieving results after 1000 episodes training
 
