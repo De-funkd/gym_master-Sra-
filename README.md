@@ -47,29 +47,39 @@ After training for 2500 episodes we observe the car reaching the flagpost
 After training for 2000 episodes we observe the pole being balanced on the cart successfully
 
 3) Blackjack
+      Implementing monte carlo learning to get desired results
 
  
    ![image](https://github.com/user-attachments/assets/9817d451-55f5-4223-8c6f-454e1290d420)
 
-   Implementing monte carlo learning to get desired results
+ 
 
-4) Frozen lake
-   ![image](https://github.com/user-attachments/assets/02acd5d9-8329-45ba-a7fd-50385231b9f4)
 
-   Implementing frozen lake problem and achieveing results after 1000 episodes training
+5) Frozen lake
+
+    Implementing frozen lake problem and achieveing results after 1000 episodes training
+
+
+
+    ![image](https://github.com/user-attachments/assets/02acd5d9-8329-45ba-a7fd-50385231b9f4)
+
+
 
 
 Process to train and run the code:
-First we train the code on a platform called kaggle from where we recieve a q table of values
-It gets saved as a .npy file
-We copy paste this file into our terminal where we run the code based on this q table
-We make basic installations for gym,numpy and pygame
+*First we train the code on a platform called kaggle from where we recieve a q table of values
+*It gets saved as a .npy file
+*We copy paste this file into our terminal where we run the code based on this q table
+*We make basic installations for gym,numpy and pygame
 
 
 PONG
 Deep Q networks:
  
+
  ![image](https://github.com/user-attachments/assets/53411b25-4dcb-4b07-81d8-f1a8cc890c0f)
+
+
 
 Deep Q-Networks (DQN) is an advanced reinforcement learning algorithm that combines Q-learning with deep learning to handle complex environments with large or continuous state spaces. 
 
@@ -109,7 +119,7 @@ Future goals:
 *	Developing a RL based drone to deliver packages
 
 Troubleshooting
-*Make sure to use the correct name of the environment
-*Use the updated version of gym when running the pong code
+* Make sure to use the correct name of the environment
+* Use the updated version of gym when running the pong code
 
    
