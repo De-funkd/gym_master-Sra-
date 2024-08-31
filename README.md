@@ -71,14 +71,17 @@ Implementations
    https://github.com/user-attachments/assets/ae525c3b-e0e7-4c33-9df5-4189ee670474
    
     
-    ![image](https://github.com/user-attachments/assets/cd362d3e-24c9-4f68-8e03-4c5fa6169899)
+ 
 
 After training for 2500 episodes we observe the car reaching the flagpost
 
 2) ## Cartpole
 
 
-    ![image](https://github.com/user-attachments/assets/2cbc2495-6153-4991-a208-531bc752ec0b)
+   
+https://github.com/user-attachments/assets/9f79fa41-6ff4-4750-9be5-ac78f052078e
+
+
 
 After training for 2000 episodes we observe the pole being balanced on the cart successfully
 
@@ -87,8 +90,7 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
 
  
  
-
-   ![image](https://github.com/user-attachments/assets/9817d451-55f5-4223-8c6f-454e1290d420)
+<img width="599" alt="Screenshot 2024-08-31 at 6 19 36 PM 1" src="https://github.com/user-attachments/assets/73169578-8ad2-420f-8197-30e656eff094">
 
  
 
