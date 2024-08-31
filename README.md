@@ -67,10 +67,10 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
 
 
 Process to train and run the code:
-*First we train the code on a platform called kaggle from where we recieve a q table of values
-*It gets saved as a .npy file
-*We copy paste this file into our terminal where we run the code based on this q table
-*We make basic installations for gym,numpy and pygame
+ * First we train the code on a platform called kaggle from where we recieve a q table of values
+*  It gets saved as a .npy file
+*  We copy paste this file into our terminal where we run the code based on this q table
+*  We make basic installations for gym,numpy and pygame
 
 
 PONG
@@ -93,8 +93,15 @@ We implement pong using convolutional neural networks.
 ![image](https://github.com/user-attachments/assets/26e68d1b-4575-431a-b46e-8816aca7d8d1)
 
 
+
 Implementation of Pong
+
+
+
 ![image](https://github.com/user-attachments/assets/89d9ee5f-932b-406b-ae4d-12efbf58f2ea)
+
+
+
 
 Installations required for Pong
 Gym
