@@ -98,7 +98,9 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
 3) ## 3) Blackjack
       Implementing monte carlo learning to get desired results
 
-           ![image](https://github.com/user-attachments/assets/550aa41c-fbd8-43f0-b01c-7355c5015c20)
+
+   ![image](https://github.com/user-attachments/assets/1be6e0ad-29a7-452c-895b-f2c8bf74b667)
+
 
 
 
@@ -159,12 +161,10 @@ Numpy
 Cv
 Pygame
 
-![image](https://github.com/user-attachments/assets/0dc5908c-03a4-4953-8727-11b844653d4a)
+pip install gym[atari]
+pip install opencv-python
+pip install pygame
 
-
-![image](https://github.com/user-attachments/assets/65309a51-e436-4026-b7f4-4d9c950f345f)
-
-![image](https://github.com/user-attachments/assets/28aadf4d-d530-4412-9e9d-fe6425b3231f)
 
 
 
