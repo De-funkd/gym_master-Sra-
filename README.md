@@ -99,7 +99,10 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
       Implementing monte carlo learning to get desired results
 
 
-   ![image](https://github.com/user-attachments/assets/1be6e0ad-29a7-452c-895b-f2c8bf74b667)
+  
+
+   
+https://github.com/user-attachments/assets/43239ad4-da0e-4210-ad0a-187101ebcbc9
 
 
 
