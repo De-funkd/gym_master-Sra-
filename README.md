@@ -98,10 +98,8 @@ After training for 2000 episodes we observe the pole being balanced on the cart 
 3) ## 3) Blackjack
       Implementing monte carlo learning to get desired results
 
- 
-     
+           ![image](https://github.com/user-attachments/assets/550aa41c-fbd8-43f0-b01c-7355c5015c20)
 
- 
 
 
 5) ## 4) Frozen lake
