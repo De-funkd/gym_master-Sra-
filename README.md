@@ -21,17 +21,17 @@
 |       | 2.3. [Kaggle](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)            |
 |       | 2.4. [File Structure](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#File-Structure)               |
 |       | 2.5. [What is Q-Learning?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#what-is-Q-learning)       |
-| 3     | [Implementations](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#implementations)                |       
-|       | 3.1. [Mountain Car Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#mountain-car-implementation) |       
-|       | 3.2. [Cartpole Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#cartpole-implementation)   |       
-|       | 3.3. [Blackjack Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#blackjack-implementation)  |       
-|       | 3.4. [Frozen Lake Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#frozen-lake-implementation) |       
-| 4     | [Deep Q-Learning](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#deep-q-learning)                |       
-|       | 4.1. [What is DQN?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#what-is-dqn)              |       
-|       | 4.2. [Pong Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#pong-implementation)       |       
-|       | 4.3. [Commands Required](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#commands-required)         |       
-| 5     | [Future Work](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#future-work)                    |       
-| 6     | [References](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#references)                     |
+| 3     | [Implementations](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Implementations)                |       
+|       | 3.1. [Mountain Car Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Mountain-Car-Implementation) |       
+|       | 3.2. [Cartpole Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Cartpole-Implementation)   |       
+|       | 3.3. [Blackjack Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Blackjack-Implementation)  |       
+|       | 3.4. [Frozen Lake Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Frozen-Lake-Implementation) |       
+| 4     | [Deep Q-Learning](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Deep-Q-Learning)                |       
+|       | 4.1. [What is DQN?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#What-Is-DQN)              |       
+|       | 4.2. [Pong Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Pong-Implementation)       |       
+|       | 4.3. [Commands Required](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Commands-Required)         |       
+| 5     | [Future Work](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Future-Work)                    |       
+| 6     | [References](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#References)                     |
   
 
    
