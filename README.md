@@ -17,9 +17,9 @@
 | 1     | [Aim](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#aim)                          |
 | 2     | [Introduction](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#theory)                   |
 |       | 2.1. [Theory](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#theory)                    |
-|       | 2.2. [File Structure](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#file-structure)            |
-|       | 2.3. [Platforms Used](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#platforms-used)            |
-|       | 2.4. [What is RL?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#what-is-rl)               |
+|       | 2.2. [Open Ai Gym](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Open-Ai-Gym)            |
+|       | 2.3. [Kaggle](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)            |
+|       | 2.4. [File Structure](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#File-Structure)               |
 |       | 2.5. [What is Q-Learning?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#what-is-q-learning)       |
 | 3     | [Implementations](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#implementations)                |       
 |       | 3.1. [Mountain Car Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#mountain-car-implementation) |       
