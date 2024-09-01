@@ -14,7 +14,7 @@
 
 | Sr No | Content                        |
 |-------|--------------------------------|
-| 1     | Aim                            |
+| 1     | [Aim](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#aim)                          |
 | 2     | Introduction                   |
 |       | 2.1. Theory                    |
 |       | 2.2. File Structure            |
