@@ -11,27 +11,32 @@
 
 
 ## Table of Contents
-| Sr No | Content                        | Pg No |
-|-------|--------------------------------|-------|
-| 1     | Overview                       |       |
-| 2     | Introduction:                  |       |
-|       | 1) What is RL?                 |       |
-|       | 2) What is Q-learning?         |       |
-| 3     | Implementations:               |       |
-|       | 1) Mountain Car Implementation |       |
-|       | 2) Cartpole Implementation     |       |
-|       | 3) Blackjack Implementation    |       |
-|       | 4) Frozen Lake Implementation  |       |
-| 4     | Deep Q-Learning:               |       |
-|       | 1) What is DQN?                |       |
-|       | 2) Pong Implementation         |       |
-|       | 3) Commands Required           |       |
-| 5     | Future Works                   |       |
-| 6     | References                     |       |
+
+| Sr No | Content                        |
+|-------|--------------------------------|
+| 1     | Aim                            |
+| 2     | Introduction                   |
+|       | 2.1. Theory                    |
+|       | 2.2. File Structure            |
+|       | 2.3. Platforms Used            |
+|       | 2.4. What is RL?               |
+|       | 2.5. What is Q-Learning?       |
+| 3     | Implementations                |       
+|       |3.1. Mountain Car Implementation|       
+|       | 3.2. Cartpole Implementation   |       
+|       | 3.3. Blackjack Implementation  |       
+|       | 3.4. Frozen Lake Implementation|       
+| 4     | Deep Q-Learning                |       
+|       | 4.1. What is DQN?              |       
+|       | 4.2. Pong Implementation       |       
+|       | 4.3. Commands Required         |       
+| 5     | Future Work                    |       
+| 6     | References                     |       
+
    
 
 ## Theory:
-Refer our documentation for getting a deeper insight into our project
+Refer our documentation(https://1drv.ms/w/c/c682f7548892e17e/ESp9_4ueLFBKmo37eFAK4aABpeTRamopaGlbPDY7wfjmcg?e=J5fVEx) for getting a deeper insight into our project
 
 Platforms Used:
 
@@ -49,7 +54,7 @@ Platforms Used:
 
 
 
-File Structure
+## File Structure
 
 
 ![image](https://github.com/user-attachments/assets/db53041f-57c1-4c57-94a4-59b60239e7c3)
