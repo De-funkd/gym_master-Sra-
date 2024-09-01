@@ -164,14 +164,12 @@ Implementation of Pong
 
 
 Installations required for Pong
-* Gym
-* Numpy
-* Cv
-* Pygame
+* Gym(https://github.com/openai/gym)
+* Numpy(https://numpy.org/install/)
+* Cv(https://opencv.org/get-started/)
+* Pygame(https://www.pygame.org/download.shtml)
 
-pip install gym[atari]
-pip install opencv-python
-pip install pygame
+Use this code repository  and you're good to go!
 
 
 
