@@ -169,8 +169,9 @@ Installations required for Pong
 * [Numpy](https://numpy.org/install/)
 * [Cv](https://opencv.org/get-started/)
 * [Pygame](https://www.pygame.org/download.shtml)
+  
 
-Use this code repository  and you're good to go!
+Use this [code repository](https://github.com/De-funkd/gym_master-Sra-)  and you're good to go!
 
 
 
