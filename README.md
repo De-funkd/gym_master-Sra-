@@ -1,6 +1,6 @@
 # REINFORCEMENT LEARNING
 
-![image](https://github.com/user-attachments/assets/fb57cc63-4175-48fe-8404-4797297112c5)
+<img src="https://tse3.mm.bing.net/th?id=OIP.GsnmCgGsPyQMVLFEsvMHYwHaEK&pid=Api&P=0&h=180 alt="Description" width="500">
 
 
 ## Aim:
