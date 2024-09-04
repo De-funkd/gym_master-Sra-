@@ -163,7 +163,8 @@ Implementation of Pong
 
 
 
-![image](https://github.com/user-attachments/assets/89d9ee5f-932b-406b-ae4d-12efbf58f2ea)
+
+![pong](https://www.gymlibrary.dev/_images/pong.gif)
 
 
 
