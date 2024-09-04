@@ -38,7 +38,7 @@
    
 
 ## Theory:
-Refer our ! [documentation](https://1drv.ms/w/c/c682f7548892e17e/ESp9_4ueLFBKmo37eFAK4aABpeTRamopaGlbPDY7wfjmcg?e=J5fVEx) for getting a deeper insight into our project
+Refer our  [documentation](https://1drv.ms/w/c/c682f7548892e17e/ESp9_4ueLFBKmo37eFAK4aABpeTRamopaGlbPDY7wfjmcg?e=J5fVEx) for getting a deeper insight into our project
 
 Platforms Used:
 
