@@ -97,20 +97,22 @@ After training for 2500 episodes we observe the car reaching the flagpost
 
 
    
-https://github.com/user-attachments/assets/9f79fa41-6ff4-4750-9be5-ac78f052078e
+
+![Cartpole](https://trencseni.com/images/cartpole.gif)
 
 
 
 After training for 2000 episodes we observe the pole being balanced on the cart successfully
 
-3) ## 3) Blackjack
-      Implementing monte carlo learning to get desired results
 
+  ## 3) Blackjack
+      
+      
 
+   ![Blackjack](https://www.gymlibrary.dev/_images/blackjack.gif)
   
 
    
-https://github.com/user-attachments/assets/43239ad4-da0e-4210-ad0a-187101ebcbc9
 
 
 
@@ -123,7 +125,7 @@ https://github.com/user-attachments/assets/43239ad4-da0e-4210-ad0a-187101ebcbc9
 
  
    
-   ![frozenlake](https://tse4.mm.bing.net/th?id=OIP.TntNAltZ4iO0puJRIUSQRgAAAA&pid=Api&P=0&h=180)
+   ![frozen lake](https://gymnasium.farama.org/_images/frozen_lake.gif)
 
 
 
