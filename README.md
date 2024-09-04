@@ -94,7 +94,7 @@ Q-learning is an off-policy algorithm that aims to learn the value of state-acti
 
 After training for 2500 episodes we observe the car reaching the flagpost
 
-## 2)Cartpole
+## 2) Cartpole
 
 
    
@@ -140,7 +140,7 @@ Process to train and run the code:
 
 
 ## PONG
-Deep Q networks:
+ ## Deep Q networks:
  
 [Pong](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c08edd97535089.5ec71d61c627a.gif)
  
@@ -160,7 +160,7 @@ We implement pong using convolutional neural networks.
 
 
 
-Implementation of Pong
+## Implementation of Pong
 
 
 
@@ -170,7 +170,7 @@ Implementation of Pong
 
 
 
-Installations required for Pong
+## Installations required for Pong
 * [Gym](https://github.com/openai/gym)
 * [Numpy](https://numpy.org/install/)
 * [Cv](https://opencv.org/get-started/)
@@ -183,13 +183,13 @@ Use this [code repository](https://github.com/De-funkd/gym_master-Sra-)  and you
 
 
 
-Future goals:
+ ## Future goals:
 *	Implementing pong using libraries such as keras and TensorFlow for better and efficient results
 *	Implementation of RL on a self-balancing bot
 * Usage in simulation of bots on platforms like gazebo
 *	Developing a RL based drone to deliver packages
 
-Troubleshooting
+ ## Troubleshooting
 * Make sure to use the correct name of the environment
 * Use the updated version of gym when running the pong code
 
