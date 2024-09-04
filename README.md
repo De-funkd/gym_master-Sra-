@@ -84,7 +84,9 @@ Implementations
  ## 1) Mountain Car
 
 
-   https://github.com/user-attachments/assets/ae525c3b-e0e7-4c33-9df5-4189ee670474
+ 
+
+   ![Mountain Car](https://miro.medium.com/v2/resize:fit:1200/1*kn59uPbJKlD2spM1vVAbKg.gif)
    
     
  
