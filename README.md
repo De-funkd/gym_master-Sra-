@@ -80,7 +80,7 @@ Platforms Used:
 ## Q learning
 Q-learning is an off-policy algorithm that aims to learn the value of state-action pairs to determine the best policy for maximizing cumulative rewards in each environment. It updates the Q-values (expected future rewards) based on the agent's experiences to improve decision-making.
 
-Implementations
+## Implementations
 
  ## 1) Mountain Car
 
