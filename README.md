@@ -1,6 +1,7 @@
 # REINFORCEMENT LEARNING
 
-<img src="https://tse3.mm.bing.net/th?id=OIP.GsnmCgGsPyQMVLFEsvMHYwHaEK&pid=Api&P=0&h=180 alt="Description" width="500">
+![image](https://www.indianai.in/wp-content/uploads/2021/05/Reinforcement-Learning.jpg)
+
 
 
 ## Aim:
