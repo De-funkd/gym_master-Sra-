@@ -21,17 +21,17 @@
 |       | 2.2. [Open Ai Gym](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Open-Ai-Gym)            |
 |       | 2.3. [Kaggle](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)            |
 |       | 2.4. [File Structure](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#File-Structure)               |
-|       | 2.5. [What is Q-Learning?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#what-is-Q-learning)       |
+|       | 2.5. [What is Q-Learning?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)       |
 | 3     | [Implementations](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Implementations)                |       
-|       | 3.1. [Mountain Car Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Mountain-Car-Implementation) |       
-|       | 3.2. [Cartpole Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Cartpole-Implementation)   |       
-|       | 3.3. [Blackjack Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Blackjack-Implementation)  |       
-|       | 3.4. [Frozen Lake Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Frozen-Lake-Implementation) |       
-| 4     | [Deep Q-Learning](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Deep-Q-Learning)                |       
-|       | 4.1. [What is DQN?](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#What-Is-DQN)              |       
-|       | 4.2. [Pong Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Pong-Implementation)       |       
-|       | 4.3. [Commands Required](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Commands-Required)         |       
-| 5     | [Future Work](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Future-Work)                    |       
+|       | 3.1. [Mountain Car Implementation]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Mountain-Car-Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)) |       
+|       | 3.2. [Cartpole Implementation]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Cartpole-Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))   |       
+|       | 3.3. [Blackjack Implementation]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Blackjack-Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))  |       
+|       | 3.4. [Frozen Lake Implementation]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Frozen-Lake-Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle)) |       
+| 4     | [Deep Q-Learning]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Deep-Q-Learning](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))                |       
+|       | 4.1. [What is DQN?]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#What-Is-DQN](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))              |       
+|       | 4.2. [Pong Implementation]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Pong-Implementation](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))       |       
+|       | 4.3. [Commands Required]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Commands-Required](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))         |       
+| 5     | [Future Work]([https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Future-Work](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#Kaggle))                    |       
 | 6     | [References](https://github.com/De-funkd/gym_master-Sra-/blob/main/README.md#References)                     |
   
 
@@ -188,6 +188,11 @@ Use this [code repository](https://github.com/De-funkd/gym_master-Sra-)  and you
 *	Implementation of RL on a self-balancing bot
 * Usage in simulation of bots on platforms like gazebo
 *	Developing a RL based drone to deliver packages
+
+## References :
+ * Book - Reinforcement Learning: An Introduction Richard S. Sutton and Andrew G. Barto
+ * Video Reference - Google Deepminds RL Playlist by David Silver
+ * Courses - Deep Learning Course 1 and 4 Basics of Neural Network and CNN by Andrew NG 
 
  ## Troubleshooting
 * Make sure to use the correct name of the environment
