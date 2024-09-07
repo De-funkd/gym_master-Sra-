@@ -59,24 +59,8 @@ Refer our  [documentation](https://1drv.ms/w/c/c682f7548892e17e/ESp9_4ueLFBKmo37
 
 ## File Structure
 
-main
-├── atari/
-│   └── pong.py
-├── basics/
-│   ├── gridworld.py
-│   └── k_bandits.py
-├── reports/
-│   ├── documentation.docx
-│   └── Gym_Master.pptx
-├── classic_control/
-│   └── saves/
-│       ├── cart_pole.py
-│       └── mountain_car.py
-├── toy_text/
-│   └── saves/
-│       ├── blackjack.py
-│       └── frozen_lake.py
-└── README.md
+
+![image](https://github.com/user-attachments/assets/66befd0f-8fa5-4a73-b5d1-b95b7b8947f5)
 
 
 
