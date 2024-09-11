@@ -192,10 +192,11 @@ Use this [code repository](https://github.com/De-funkd/gym_master-Sra-)  and you
 *	Developing a RL based drone to deliver packages
 
 ## References :
- * Book - Reinforcement Learning: An Introduction Richard S. Sutton and Andrew G. Barto
- * Video Reference - Google Deepminds RL Playlist by David Silver
- * Courses - Deep Learning Course 1 and 4 Basics of Neural Network and CNN by Andrew NG 
-
+ * Book - [Reinforcement Learning: An Introduction Richard S. Sutton and Andrew G. Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+ * Video Reference - [Google Deepminds RL Playlist by David Silver](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+ * Courses - [Deep Learning Course 1 and 4 Basics of Neural Network and CNN by Andrew NG](https://www.coursera.org/specializations/machine-learning-introduction?adgroupid=161332312026&adposition=&campaignid=20594446971&creativeid=698085043093&device=c&devicemodel=&gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhsYARho42rZGRRY4A9L_R_FnOIX4RnPEqYJsHhOdrJII3BVsXoi5FBoC8S4QAvD_BwE&hide_mobile_promo&keyword=machine+learning+by+andrew+ng+coursera&matchtype=p&network=g&utm_campaign=b2c_india_machine-learning-introduction_stanford-deeplearning.ai_ftcof_specializations_arte_sep-23_dr_sem_rsa_gads_lg-all&utm_medium=sem&utm_source=gg)
+* Research Paper - [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602)
+ 
  ## Troubleshooting
 * Make sure to use the correct name of the environment
 * Use the updated version of gym when running the pong code
